@@ -1,25 +1,30 @@
 body {margin: 20px;
-    font-family: "Lugrasimo", cursive;
+    font-family: "Itim", cursive;
+    font-size: 1.3em;
+    box-sizing: border-box;
 }
 
 h1 {margin: 20px;
-    text-align: center;}
+    text-align: center;
+    font-size: 175%;
+}
 
 .container {
     margin-top: 20px;
     float: left;
 }
 
-#container-1 h2 {background-color: red;}
-#container-2 h2 {background-color: skyblue;}
+#container-1 h2 {background-color: skyblue;}
+#container-2 h2 {background-color: red; color: white;}
 #container-3 h2 {background-color: yellow;}
 
 h2 {position: absolute;
+    font-size: 125%;
     margin: 0px;
     top: 0px;
     right: 0px;
     clear: both;
-    width: 150px;
+    width: 170px;
     text-align: center;
     border-bottom: black 3px solid;
     border-left: black 3px solid;
