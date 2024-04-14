@@ -1,0 +1,64 @@
+body {margin: 20px;
+    font-family: "Lugrasimo", cursive;
+}
+
+h1 {margin: 20px;
+    text-align: center;}
+
+.container {
+    margin-top: 20px;
+    float: left;
+}
+
+#container-1 h2 {background-color: red;}
+#container-2 h2 {background-color: skyblue;}
+#container-3 h2 {background-color: yellow;}
+
+h2 {position: absolute;
+    margin: 0px;
+    top: 0px;
+    right: 0px;
+    clear: both;
+    width: 150px;
+    text-align: center;
+    border-bottom: black 3px solid;
+    border-left: black 3px solid;
+}
+
+.box {
+    background-color: gray;
+    margin: 20px;
+    position: relative;
+    padding: 20px;
+    border: black 3px solid;
+}
+
+.box p {margin-top: 30px;}
+
+
+@media (min-width: 992px) {
+    #container-1 {width: 33.33%;}
+
+    #container-2 {width: 33.33%;}
+
+    #container-3 {width: 33.33%;}
+
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+    #container-1 {width: 50%;}
+
+    #container-2 {width: 50%;}
+
+    #container-3 {width: 100%;}
+
+}
+
+@media (max-width:767px) {
+    #container-1 {width: 100%;}
+
+    #container-2 {width: 100%;}
+
+    #container-3 {width: 100%;}
+
+}
