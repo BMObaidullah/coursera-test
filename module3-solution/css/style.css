@@ -1,0 +1,96 @@
+body {
+  font-family: "Itim", cursive;
+  font-size: 1.3em;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+}
+
+#header-nav {
+  background-color: skyblue;
+  border-radius: 0px;
+  border: 0px;
+  height: auto;
+}
+
+.navbar-brand {
+  height: auto;
+}
+
+.navbar-brand h1 {
+  color: black;
+  font-size: 1.8em;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.navbar-brand a:hover {
+  text-decoration: none;
+}
+
+#nav-list li a {
+  color: black;
+}
+
+hr {
+  margin: 0px;
+}
+
+h2 {
+  margin: 20px;
+}
+
+#main-content h3 {
+  padding-top: 20px;
+}
+
+#main-content p {
+  font-size: 1.4em;
+  padding: 10px 20px 20px 20px;
+}
+
+.content-box {
+  background-color: skyblue;
+}
+
+#sushi {
+  position: relative;
+}
+
+#sushi a {
+  font-size: 1.5em;
+  position: absolute;
+  bottom: -30px;
+  right: 20px;
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) {
+  /* Header */
+  #nav-list li a {
+    font-size: 1.5em;
+  }
+}
+/* End Header */
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #nav-list li a {
+    font-size: 1.3em;
+  }
+
+  .navbar-brand h1 {
+    font-size: 1.6em;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  #nav-list li a {
+    font-size: 1.2em;
+  }
+
+  .navbar-brand h1 {
+    font-size: 1.4em;
+  }
+}
